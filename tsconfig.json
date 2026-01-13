@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+
+        /* Type Checking */
+        "strict": true /* Enable all strict type-checking options. */,
+        "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied 'any' type. */,
+        "strictNullChecks": true /* When type checking, take into account 'null' and 'undefined'. */,
+        "strictFunctionTypes": true /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */,
+        "noImplicitThis": true /* Enable error reporting when 'this' is given the type 'any'. */,
+        "alwaysStrict": true /* Ensure 'use strict' is always emitted. */,
+        "noUnusedLocals": true /* Enable error reporting when local variables aren't read. */,
+        "noUnusedParameters": true /* Raise an error when a function parameter isn't read. */,
+        "allowUnreachableCode": false /* Disable error reporting for unreachable code. */,
+
+        /* Completeness */
+        "skipDefaultLibCheck": true /* Skip type checking .d.ts files that are included with TypeScript. */,
+        "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+
+        /* configure path aliases */
+        "baseUrl": "./",
+        "paths": {
+            "src/*": ["src/*"],
+            "types/*": ["types/*"]
+        }
+    },
+    "include": [
+        "src",
+        "types/**/*",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.test.ts",
+        "**/*.test.tsx",
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "vitest.setup.ts"
+    ] /* Include all files in the src directory and its subdirectories. */,
+    "exclude": [
+        "vite.config.ts",
+        "node_modules",
+        "**/*.spec.ts"
+    ] /* Exclude all files in the node_modules directory and any .spec.ts files. */
+}
