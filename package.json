@@ -1,0 +1,17 @@
+{
+  "name": "maestro-import-map",
+  "version": "1.0.0",
+  "author": "",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  },
+  "dependencies": {
+    "@tealium/shared-dependencies": "^1.7.0"
+  }
+}
