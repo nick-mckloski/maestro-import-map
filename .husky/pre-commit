@@ -1,1 +1,4 @@
-npm test
+#!/usr/bin/env sh
+
+npx lint-staged --verbose
+npm run compile
